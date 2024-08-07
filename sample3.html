@@ -1,0 +1,18 @@
+// 함수 선언문
+undefined
+function logText() {
+    console.log('hi');
+}
+
+//함수 표현식
+var logText = function () {
+    console.log('ho');
+}
+undefined
+function logText(message) {
+    message();
+}
+undefined
+logText(function() {
+    console.log('hi');
+});
