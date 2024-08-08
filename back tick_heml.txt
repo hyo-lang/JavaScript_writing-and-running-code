@@ -1,0 +1,21 @@
+var a = 'hi';
+
+var b = "hi";
+
+var c = `hi`;
+
+var message = `${a} 캡팡`;
+
+message
+'hi 캡팡'
+
+var a = 'hi';
+
+var message = a + ' 캡팡';
+
+message
+'hi 캡팡'
+var message = `${a} 캡팡`
+
+message
+'hi 캡팡'
