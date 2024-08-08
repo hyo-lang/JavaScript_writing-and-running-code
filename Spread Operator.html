@@ -1,0 +1,36 @@
+var obj = {
+    a: 10,
+    b: 20
+}
+
+var user = {
+    a: obj. a,
+    b: obj. b,
+    c: 30
+}
+
+user
+{a: 10, b: 20, c: 30}a: 10b: 20c: 30[[Prototype]]: Object
+
+var user = {
+    ...obj,
+    c: 30
+}
+
+user
+{a: 10, b: 20, c: 30}
+
+var arr = ['a','b'];
+    
+var newArr = [arr[0], arr[1]];
+
+newArr
+(2) ['a', 'b']
+var newArr = [...arr];
+
+newArr
+(2) ['a', 'b']
+var newArr = [...arr, 'c'];
+
+newArr
+(3) ['a', 'b', 'c']
